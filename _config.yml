@@ -1,0 +1,50 @@
+title: 郡 健太（ねごろ） | 行動生態学・性選択
+description: コクヌストモドキを用いた交尾後選択・行動生態学の研究
+lang: ja
+locale: ja-JP
+# GitHub Pages では remote_theme を使うのが簡単
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: default
+
+# サイトURL（公開後に USERNAME を自分のGitHubユーザー名に変更）
+url: "https://USERNAME.github.io"
+repository: "USERNAME/USERNAME.github.io"
+
+# 著者情報
+author:
+  name: 郡 健太
+  # avatar: /assets/img/profile.jpg  # 必要なら画像を置いて有効化
+  bio: 行動生態学・性選択（コクヌストモドキ）
+  location: Tokyo, Japan
+  links:
+    - label: Email
+      icon: fas fa-envelope
+      url: mailto:YOURNAME@example.com
+    - label: X(Twitter)
+      icon: fab fa-x-twitter
+      url: https://x.com/korigoridayo_
+    - label: Google Scholar
+      icon: ai ai-google-scholar
+      url: https://scholar.google.com/
+    - label: ORCID
+      icon: ai ai-orcid
+      url: https://orcid.org/
+
+# コレクション（ホームに近況＝newsを出す）
+collections:
+  news:
+    output: true
+    permalink: /news/:path/
+
+# プラグイン（GitHub Pages で使えるもの）
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+permalink: pretty
+
+# ビルド除外
+exclude:
+  - README.md
