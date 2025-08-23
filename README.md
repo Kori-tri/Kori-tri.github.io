@@ -18,3 +18,4 @@
 - `_data/navigation.yml` でナビメニュー編集
 - 近況は `/_news/` に Markdown を追加（`YYYY-MM-DD-title.md`）
 - `assets/` にプロフィール画像やPDFを置く
+（例）テスト更新
