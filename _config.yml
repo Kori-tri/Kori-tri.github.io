@@ -39,6 +39,7 @@ collections:
 # プラグイン（GitHub Pages で使えるもの）
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache   # ← これを追加
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
@@ -48,3 +49,4 @@ permalink: pretty
 # ビルド除外
 exclude:
   - README.md
+
