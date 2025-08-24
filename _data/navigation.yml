@@ -1,0 +1,9 @@
+main:
+  - title: ホーム
+    url: /
+  - title: 研究内容
+    url: /research/
+  - title: 研究業績
+    url: /publications/
+  - title: 連絡先
+    url: /contact/
